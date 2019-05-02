@@ -47,7 +47,7 @@ At least the following computer hardware:
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://www.packtpub.com/sites/default/files/downloads/9781789137798_ColorImages.pdf).
 
 ### Related products
-*  [[Packt]](https://prod.packtpub.com/in/application-development/implementing-microsoft-dynamics-365-business-central-premise-fourth-edition?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/B07GVPYT82)
+*  Implementing Microsoft Dynamics 365 Business Central On-Premise - Fourth Edition [[Packt]](https://prod.packtpub.com/in/application-development/implementing-microsoft-dynamics-365-business-central-premise-fourth-edition?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/B07GVPYT82)
 
 * Dynamics 365 Business Central Development Quick Start Guide  [[Packt]](https://prod.packtpub.com/in/business/dynamics-365-business-central-development-quick-start-guide?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/1789347467)
 
