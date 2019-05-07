@@ -1,0 +1,44 @@
+OBJECT Table 50003 Playlist Line
+{
+  OBJECT-PROPERTIES
+  {
+    Date=22-10-16;
+    Time=21:06:33;
+    Modified=Yes;
+    Version List=CDM02;
+  }
+  PROPERTIES
+  {
+  }
+  FIELDS
+  {
+    { 10  ;   ;Document No.        ;Code20         }
+    { 20  ;   ;Line No.            ;Integer        }
+    { 30  ;   ;Type                ;Option        ;OptionCaptionML=ENU=,Resource,Show,Item;
+                                                   OptionString=,Resource,Show,Item;
+                                                   Description=,Resource,Show,Item }
+    { 40  ;   ;No.                 ;Code20         }
+    { 50  ;   ;Data Format         ;Option        ;OptionCaptionML=ENU=,Vinyl,CD,MP3,PSA,Advertisement;
+                                                   OptionString=,Vinyl,CD,MP3,PSA,Advertisement;
+                                                   Description=,Vinyl,CD,MP3,PSA,Advertisement }
+    { 60  ;   ;Publisher           ;Code10         }
+    { 70  ;   ;Description         ;Text30         }
+    { 80  ;   ;Duration            ;Duration       }
+    { 90  ;   ;Start Time          ;Time           }
+    { 100 ;   ;End Time            ;Time           }
+  }
+  KEYS
+  {
+    {    ;Document No.,Line No.                   ;Clustered=Yes }
+  }
+  FIELDGROUPS
+  {
+  }
+  CODE
+  {
+
+    BEGIN
+    END.
+  }
+}
+

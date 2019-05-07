@@ -1,0 +1,68 @@
+OBJECT Page 50006 Radio Show Entries
+{
+  OBJECT-PROPERTIES
+  {
+    Date=14-12-14;
+    Time=17:21:24;
+    Modified=Yes;
+    Version List=CDM02;
+  }
+  PROPERTIES
+  {
+    SourceTable=Table50005;
+    PageType=List;
+  }
+  CONTROLS
+  {
+    { 1   ;0   ;Container ;
+                ContainerType=ContentArea }
+
+    { 2   ;1   ;Group     ;
+                Name=Group;
+                GroupType=Repeater }
+
+    { 3   ;2   ;Field     ;
+                SourceExpr="Entry No." }
+
+    { 4   ;2   ;Field     ;
+                SourceExpr="Radio Show No." }
+
+    { 5   ;2   ;Field     ;
+                SourceExpr=Type }
+
+    { 6   ;2   ;Field     ;
+                SourceExpr="No." }
+
+    { 7   ;2   ;Field     ;
+                SourceExpr=DataFormat }
+
+    { 8   ;2   ;Field     ;
+                SourceExpr=Description }
+
+    { 9   ;2   ;Field     ;
+                SourceExpr=Date }
+
+    { 10  ;2   ;Field     ;
+                SourceExpr=Time }
+
+    { 11  ;2   ;Field     ;
+                SourceExpr=Duration }
+
+    { 12  ;2   ;Field     ;
+                SourceExpr="Fee Amount" }
+
+    { 13  ;2   ;Field     ;
+                SourceExpr="ASCAP ID" }
+
+    { 14  ;2   ;Field     ;
+                SourceExpr="Publisher Code" }
+
+  }
+  CODE
+  {
+
+    BEGIN
+    END.
+  }
+}
+

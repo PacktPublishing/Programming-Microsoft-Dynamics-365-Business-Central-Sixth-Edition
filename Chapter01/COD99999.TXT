@@ -1,0 +1,54 @@
+OBJECT Codeunit 99999 Radio Extension Test
+{
+  OBJECT-PROPERTIES
+  {
+    Date=18-09-16;
+    Time=14:09:54;
+    Modified=Yes;
+    Version List=CDM01;
+  }
+  PROPERTIES
+  {
+    Subtype=Test;
+    OnRun=BEGIN
+          END;
+
+  }
+  CODE
+  {
+
+    [Test]
+    PROCEDURE CreateRadioShows@2();
+    BEGIN
+      HelperCreateRadioShow('RS001', 'TALK', 'CeCe and Friends', 020000T - 000000T, 'CECE', 'CeCe Grace');
+      HelperCreateRadioShow('RS002', 'MUSIC', 'Alec Rocks and Bobs', 020000T - 000000T, 'ALEC', 'Alec Benito');
+      HelperCreateRadioShow('RS003', 'CALL-IN', 'Ask Cole! ', 020000T - 000000T, 'COLE', 'Cole Henry');
+      HelperCreateRadioShow('RS004', 'CALL-IN', 'What do you think?', 010000T - 000000T, 'WESLEY', 'Wesley Knudsen');
+      HelperCreateRadioShow('RS005', 'MUSIC', 'Quiet Times', 030000T - 000000T, 'SASKIA', 'Saskia Panko');
+      HelperCreateRadioShow('RS006', 'NEWS', 'World News', 010000T - 000000T, 'DAAN', 'Daan White');
+      HelperCreateRadioShow('RS007', 'ROCK', 'Rock Classics', 020000T - 000000T, 'JOSEPH', 'Josephine Perisic');
+    END;
+
+    [Test]
+    PROCEDURE TestRadioShows@4();
+    BEGIN
+    END;
+
+    PROCEDURE HelperCreateRadioShow@3(No@1001 : Code[20];ShowCode@1002 : Code[10];Name@1003 : Text;RunTime@1004 : Duration;HostCode@1005 : Code[10];HostName@1006 : Text);
+    VAR
+      RadioShow@1000 : Record 50000;
+    BEGIN
+      RadioShow."No." := No;
+      RadioShow."Show Code" := ShowCode;
+      RadioShow.Name := Name;
+      RadioShow."Run Time" := RunTime;
+      RadioShow."Host Code" := HostCode;
+      RadioShow."Host Name" := HostName;
+      RadioShow.INSERT;
+    END;
+
+    BEGIN
+    END.
+  }
+}
+

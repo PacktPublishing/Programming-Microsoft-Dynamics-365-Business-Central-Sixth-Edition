@@ -1,0 +1,34 @@
+OBJECT Table 50001 Radio Show Type
+{
+  OBJECT-PROPERTIES
+  {
+    Date=13-12-14;
+    Time=18:40:52;
+    Modified=Yes;
+    Version List=CDM02;
+  }
+  PROPERTIES
+  {
+    LookupPageID=Page50002;
+    DrillDownPageID=Page50002;
+  }
+  FIELDS
+  {
+    { 10  ;   ;Code                ;Code10         }
+    { 20  ;   ;Description         ;Text30         }
+  }
+  KEYS
+  {
+    {    ;Code                                    ;Clustered=Yes }
+  }
+  FIELDGROUPS
+  {
+  }
+  CODE
+  {
+
+    BEGIN
+    END.
+  }
+}
+

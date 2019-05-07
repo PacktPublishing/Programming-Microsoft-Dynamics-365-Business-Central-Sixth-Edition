@@ -1,0 +1,59 @@
+OBJECT Page 50007 Listenership Entries
+{
+  OBJECT-PROPERTIES
+  {
+    Date=14-12-14;
+    Time=17:22:20;
+    Modified=Yes;
+    Version List=CDM02;
+  }
+  PROPERTIES
+  {
+    SourceTable=Table50006;
+    PageType=List;
+  }
+  CONTROLS
+  {
+    { 1   ;0   ;Container ;
+                ContainerType=ContentArea }
+
+    { 2   ;1   ;Group     ;
+                Name=Group;
+                GroupType=Repeater }
+
+    { 3   ;2   ;Field     ;
+                SourceExpr="Entry No." }
+
+    { 4   ;2   ;Field     ;
+                SourceExpr="Ratings Source Entry No" }
+
+    { 5   ;2   ;Field     ;
+                SourceExpr=Date }
+
+    { 6   ;2   ;Field     ;
+                SourceExpr="Start Time" }
+
+    { 7   ;2   ;Field     ;
+                SourceExpr="End Time" }
+
+    { 8   ;2   ;Field     ;
+                SourceExpr="Radio Show No." }
+
+    { 9   ;2   ;Field     ;
+                SourceExpr="Listener Count" }
+
+    { 10  ;2   ;Field     ;
+                SourceExpr="Audience Share" }
+
+    { 11  ;2   ;Field     ;
+                SourceExpr="Age Demographic" }
+
+  }
+  CODE
+  {
+
+    BEGIN
+    END.
+  }
+}
+

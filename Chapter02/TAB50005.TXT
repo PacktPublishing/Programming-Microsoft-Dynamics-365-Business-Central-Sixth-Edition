@@ -1,0 +1,48 @@
+OBJECT Table 50005 Radio Show Entry
+{
+  OBJECT-PROPERTIES
+  {
+    Date=22-10-16;
+    Time=21:10:58;
+    Modified=Yes;
+    Version List=CDM02;
+  }
+  PROPERTIES
+  {
+  }
+  FIELDS
+  {
+    { 10  ;   ;Entry No.           ;Integer        }
+    { 20  ;   ;Radio Show No.      ;Code20         }
+    { 30  ;   ;Type                ;Option        ;OptionCaptionML=ENU=,Resource,Show,Item;
+                                                   OptionString=,Resource,Show,Item }
+    { 40  ;   ;No.                 ;Code20        ;TableRelation=IF (Type=CONST(Resource)) Resource.No.
+                                                                 ELSE IF (Type=CONST(Show)) "Radio Show".No.
+                                                                 ELSE IF (Type=CONST(Item)) Item.No. }
+    { 50  ;   ;DataFormat          ;Option        ;OptionCaptionML=ENU=,Vinyl,CD,MP3,PSA,Advertisement;
+                                                   OptionString=,Vinyl,CD,MP3,PSA,Advertisement }
+    { 60  ;   ;Description         ;Text30         }
+    { 70  ;   ;Date                ;Date           }
+    { 80  ;   ;Time                ;Time           }
+    { 90  ;   ;Duration            ;Duration       }
+    { 100 ;   ;Fee Amount          ;Decimal        }
+    { 110 ;   ;ASCAP ID            ;Integer        }
+    { 120 ;   ;Publisher Code      ;Code20         }
+  }
+  KEYS
+  {
+    {    ;Entry No.                               ;Clustered=Yes }
+    {    ;Radio Show No.,Date                     ;SumIndexFields=Fee Amount }
+    {    ;Type,No.,Date                           ;SumIndexFields=Fee Amount }
+  }
+  FIELDGROUPS
+  {
+  }
+  CODE
+  {
+
+    BEGIN
+    END.
+  }
+}
+

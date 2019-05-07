@@ -1,0 +1,42 @@
+OBJECT Table 50006 Listenership Entry
+{
+  OBJECT-PROPERTIES
+  {
+    Date=22-10-16;
+    Time=20:59:54;
+    Modified=Yes;
+    Version List=CDM02;
+  }
+  PROPERTIES
+  {
+  }
+  FIELDS
+  {
+    { 10  ;   ;Entry No.           ;Integer        }
+    { 20  ;   ;Ratings Source Entry No;Integer     }
+    { 30  ;   ;Date                ;Date           }
+    { 40  ;   ;Start Time          ;Time           }
+    { 50  ;   ;End Time            ;Time           }
+    { 60  ;   ;Radio Show No.      ;Code20         }
+    { 70  ;   ;Listener Count      ;Decimal        }
+    { 80  ;   ;Audience Share      ;Decimal        }
+    { 90  ;   ;Age Demographic     ;Option        ;OptionCaptionML=ENU=,0-12,13-18,19-34,35-50,51+;
+                                                   OptionString=,0-12,13-18,19-34,35-50,51+ }
+  }
+  KEYS
+  {
+    {    ;Entry No.                               ;Clustered=Yes }
+    {    ;Radio Show No.,Date,Start Time,Age Demographic;
+                                                   SumIndexFields=Listener Count,Audience Share }
+  }
+  FIELDGROUPS
+  {
+  }
+  CODE
+  {
+
+    BEGIN
+    END.
+  }
+}
+

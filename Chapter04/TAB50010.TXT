@@ -1,0 +1,35 @@
+OBJECT Table 50010 Radio Show Fan
+{
+  OBJECT-PROPERTIES
+  {
+    Date=09-08-15;
+    Time=17:57:30;
+    Modified=Yes;
+    Version List=CDM04;
+  }
+  PROPERTIES
+  {
+  }
+  FIELDS
+  {
+    { 10  ;   ;No.                 ;Code20         }
+    { 20  ;   ;Radio Show No.      ;Code20         }
+    { 30  ;   ;Name                ;Text50         }
+    { 40  ;   ;Email               ;Text250        }
+    { 50  ;   ;Last Contacted      ;Date           }
+  }
+  KEYS
+  {
+    {    ;No.                                     ;Clustered=Yes }
+  }
+  FIELDGROUPS
+  {
+  }
+  CODE
+  {
+
+    BEGIN
+    END.
+  }
+}
+

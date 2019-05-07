@@ -1,0 +1,38 @@
+OBJECT Page 50002 Radio Show Types
+{
+  OBJECT-PROPERTIES
+  {
+    Date=13-12-14;
+    Time=18:24:51;
+    Modified=Yes;
+    Version List=CDM02;
+  }
+  PROPERTIES
+  {
+    SourceTable=Table50001;
+    PageType=List;
+  }
+  CONTROLS
+  {
+    { 1   ;0   ;Container ;
+                ContainerType=ContentArea }
+
+    { 2   ;1   ;Group     ;
+                Name=Group;
+                GroupType=Repeater }
+
+    { 3   ;2   ;Field     ;
+                SourceExpr=Code }
+
+    { 4   ;2   ;Field     ;
+                SourceExpr=Description }
+
+  }
+  CODE
+  {
+
+    BEGIN
+    END.
+  }
+}
+

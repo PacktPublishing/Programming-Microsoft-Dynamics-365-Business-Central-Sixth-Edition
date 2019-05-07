@@ -1,0 +1,45 @@
+OBJECT Table 50009 Date Formula Test
+{
+  OBJECT-PROPERTIES
+  {
+    Date=09-08-15;
+    Time=13:21:51;
+    Modified=Yes;
+    Version List=CDM03;
+  }
+  PROPERTIES
+  {
+  }
+  FIELDS
+  {
+    { 10  ;   ;Primary key         ;Integer        }
+    { 20  ;   ;Reference Date for Calculation;Date;OnValidate=BEGIN
+                                                                CalculateNewDate;
+                                                              END;
+                                                               }
+    { 30  ;   ;Date Formula to Test;DateFormula   ;OnValidate=BEGIN
+                                                                CalculateNewDate;
+                                                              END;
+                                                               }
+    { 40  ;   ;Date Result         ;Date           }
+  }
+  KEYS
+  {
+    {    ;Primary key                             ;Clustered=Yes }
+  }
+  FIELDGROUPS
+  {
+  }
+  CODE
+  {
+
+    LOCAL PROCEDURE CalculateNewDate@2();
+    BEGIN
+      "Date Result" := CALCDATE("Date Formula to Test","Reference Date for Calculation");
+    END;
+
+    BEGIN
+    END.
+  }
+}
+

@@ -1,0 +1,37 @@
+OBJECT Table 50002 Playlist Header
+{
+  OBJECT-PROPERTIES
+  {
+    Date=22-10-16;
+    Time=20:53:05;
+    Modified=Yes;
+    Version List=CDM02;
+  }
+  PROPERTIES
+  {
+  }
+  FIELDS
+  {
+    { 10  ;   ;No.                 ;Code20         }
+    { 20  ;   ;Radio Show No.      ;Code20         }
+    { 30  ;No ;Description         ;Text30         }
+    { 40  ;   ;Broadcast Date      ;Date           }
+    { 50  ;   ;Duration            ;Duration       }
+    { 60  ;   ;Start Time          ;Time           }
+    { 70  ;   ;End Time            ;Time           }
+  }
+  KEYS
+  {
+    {    ;No.                                     ;Clustered=Yes }
+  }
+  FIELDGROUPS
+  {
+  }
+  CODE
+  {
+
+    BEGIN
+    END.
+  }
+}
+

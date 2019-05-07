@@ -1,0 +1,51 @@
+OBJECT Table 50000 Radio Show
+{
+  OBJECT-PROPERTIES
+  {
+    Date=22-10-16;
+    Time=20:46:42;
+    Modified=Yes;
+    Version List=CDM01,02;
+  }
+  PROPERTIES
+  {
+  }
+  FIELDS
+  {
+    { 1   ;   ;No.                 ;Code20         }
+    { 10  ;   ;Radio Show Type     ;Code10        ;TableRelation="Radio Show Type" }
+    { 20  ;   ;Name                ;Text50         }
+    { 40  ;   ;Run Time            ;Duration       }
+    { 50  ;   ;Host Code           ;Code20         }
+    { 60  ;   ;Host Name           ;Text50         }
+    { 100 ;   ;Average Listenerss  ;Decimal        }
+    { 110 ;   ;Audience Share      ;Decimal        }
+    { 120 ;   ;Advertising Revenue ;Decimal        }
+    { 130 ;   ;Royalty Cost        ;Decimal        }
+    { 1000;   ;Frequency           ;Option        ;OptionCaptionML=ENU=,Hourly,Daily,Weekly,Monthly;
+                                                   OptionString=,Hourly,Daily,Weekly,Monthly }
+    { 1010;   ;PSA Planned Quantity;Integer        }
+    { 1020;   ;Ads Planned Quanitty;Integer        }
+    { 1030;   ;News Required       ;Boolean        }
+    { 1040;   ;News Duration       ;Duration       }
+    { 1050;   ;Sports Required     ;Boolean        }
+    { 1060;   ;Sports Duration     ;Duration       }
+    { 1070;   ;Weather Required    ;Boolean        }
+    { 1080;   ;Weather Duration    ;Duration       }
+    { 1090;   ;Date Filter         ;Date           }
+  }
+  KEYS
+  {
+    {    ;No.                                     ;Clustered=Yes }
+  }
+  FIELDGROUPS
+  {
+  }
+  CODE
+  {
+
+    BEGIN
+    END.
+  }
+}
+
