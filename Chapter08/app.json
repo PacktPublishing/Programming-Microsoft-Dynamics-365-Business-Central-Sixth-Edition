@@ -1,0 +1,27 @@
+{
+
+    "id": "d7d65271-7d81-4267-bccd-1cd0d513eeab",
+      "name": "WDTU",
+      "publisher": "Mark, Dave & Chris",
+      "brief": "",
+      "description": "",
+      "version": "1.0.0.0",
+      "privacyStatement": "",
+  
+    "EULA": "",
+      "help": "",
+      "url": "",
+      "logo": "",
+      "capabilities": [],
+      "dependencies": [],
+      "screenshots": [],
+      "platform": "12.0.0.0",
+      "application": "12.0.0.0",
+      "idRange": {
+        "from": 50100,
+        "to": 50149
+      },
+      "runtime": "2.0",
+      "showMyCode": true,"target": "Internal"
+  
+  }

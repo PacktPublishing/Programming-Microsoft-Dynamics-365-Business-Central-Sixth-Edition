@@ -1,0 +1,5 @@
+.vscode/launch.json
+.vscode/settings.json
+.alpackages/*
+*.app
+_deploy.ps1
