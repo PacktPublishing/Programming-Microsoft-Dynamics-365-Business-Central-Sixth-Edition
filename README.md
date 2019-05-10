@@ -51,7 +51,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 * Dynamics 365 Business Central Development Quick Start Guide  [[Packt]](https://prod.packtpub.com/in/business/dynamics-365-business-central-development-quick-start-guide?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/1789347467)
 
-## Get to Know the Author
+## Get to Know the Authors
 **Mark Brummel**
 started working with Navision in 1997 as an end user. He started working for a Navision solution center in 1999 and witnessed the evolution of the product. In 2006, he received the MVP award from Microsoft and started a journey of close involvement in the product. After the migration to Microsoft Dynamics NAV, the three-tier architecture and role-tailored user interface, he became a trusted consultant, frequently visiting the Microsoft Development Center in Copenhagen and speaking at events. Mark was very closely involved in the early ideas of implementing modern programming concepts that are now known as events and extensions. He is currently senior product specialist at ForNAV and a freelance software architect.
 
