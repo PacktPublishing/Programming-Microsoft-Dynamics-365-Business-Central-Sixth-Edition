@@ -1,3 +1,8 @@
+## $5 Tech Unlocked 2021!
+[Buy and download this Book for only $5 on PacktPub.com](https://www.packtpub.com/product/programming-microsoft-dynamics-365-business-central-sixth-edition/9781789137798)
+-----
+*If you have read this book, please leave a review on [Amazon.com](https://www.amazon.com/gp/product/1789137799).     Potential readers can then use your unbiased opinion to help them make purchase decisions. Thank you. The $5 campaign         runs from __December 15th 2020__ to __January 13th 2021.__*
+
 # Programming Microsoft Dynamics 365 Business Central - Sixth Edition
 
 <a href="https://www.packtpub.com/application-development/programming-microsoft-dynamics-business-central-sixth-edition?utm_source=github&utm_medium=repository&utm_campaign=9781789137798 "><img src="https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/B10457_MockupCover.png" alt="Programming Microsoft Dynamics Business Central - Sixth Edition" height="256px" align="right"></a>
