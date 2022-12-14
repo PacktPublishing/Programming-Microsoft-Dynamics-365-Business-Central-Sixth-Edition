@@ -1,3 +1,15 @@
+
+### Get this product for $5
+
+<i>Packt is having its biggest sale of the year. Get this eBook or any other book, video, or course that you like just for $5 each</i>
+
+
+<b><p align='center'>[Buy now](https://packt.link/9781789137798)</p></b>
+
+
+<b><p align='center'>[Buy similar titles for just $5](https://subscription.packtpub.com/search)</p></b>
+
+
 # Programming Microsoft Dynamics 365 Business Central - Sixth Edition
 
 <a href="https://www.packtpub.com/application-development/programming-microsoft-dynamics-business-central-sixth-edition?utm_source=github&utm_medium=repository&utm_campaign=9781789137798 "><img src="https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/B10457_MockupCover.png" alt="Programming Microsoft Dynamics Business Central - Sixth Edition" height="256px" align="right"></a>
