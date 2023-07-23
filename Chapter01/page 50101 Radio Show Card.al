@@ -2,6 +2,7 @@ page 50101 "Radio Show Card"
 {
     PageType = Card;
     SourceTable = "Radio Show";
+    ApplicationArea = All;
 
     layout
     {
@@ -9,16 +10,16 @@ page 50101 "Radio Show Card"
         {
             group(General)
             {
-                field("No."; "No.") { ApplicationArea = Basic; }
-                field("Radio Show Type"; "Radio Show Type") { ApplicationArea = Basic; }
-                field("Name"; "Name") { ApplicationArea = Basic; }
-                field("Run Time"; "Run Time") { ApplicationArea = Basic; }
-                field("Host Code"; "Host Code") { ApplicationArea = Basic; }
-                field("Host Name"; "Host Name") { ApplicationArea = Basic; }
-                field("Average Listeners"; "Average Listeners") { ApplicationArea = Basic; }
-                field("Audience Share"; "Audience Share") { ApplicationArea = Basic; }
-                field("Advertising Revenue"; "Advertising Revenue") { ApplicationArea = Basic; }
-                field("Royalty Cost"; "Royalty Cost") { ApplicationArea = Basic; }
+                field("No."; Rec."No.") { }
+                field("Radio Show Type"; Rec."Radio Show Type") { }
+                field("Name"; Rec."Name") { }
+                field("Run Time"; Rec."Run Time") { }
+                field("Host Code"; Rec."Host Code") { }
+                field("Host Name"; Rec."Host Name") { }
+                field("Average Listeners"; Rec."Average Listeners") { }
+                field("Audience Share"; Rec."Audience Share") { }
+                field("Advertising Revenue"; Rec."Advertising Revenue") { }
+                field("Royalty Cost"; Rec."Royalty Cost") { }
             }
         }
     }
