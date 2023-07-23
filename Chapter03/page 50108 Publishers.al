@@ -2,7 +2,7 @@ page 50108 Publishers
 {
     PageType = List;
     SourceTable = "Radio Show Type";
-    ApplicationArea = Basic;
+    ApplicationArea = All;
     UsageCategory = Administration;
     layout
     {
@@ -10,8 +10,8 @@ page 50108 Publishers
         {
             repeater(Group)
             {
-                field(Code; Code) { ApplicationArea = Basic; }
-                field(Description; Description) { ApplicationArea = Basic; }
+                field(Code; Rec.Code) { }
+                field(Description; Rec.Description) { }
             }
         }
     }

@@ -2,7 +2,7 @@ page 50111 "Radio Show Fans"
 {
     PageType = ListPart;
     UsageCategory = Lists;
-    ApplicationArea = Basic;
+    ApplicationArea = All;
     SourceTable = "Radio Show Fan";
 
     layout
@@ -11,9 +11,9 @@ page 50111 "Radio Show Fans"
         {
             repeater(Group)
             {
-                field(Name; Name) { ApplicationArea = Basic; }
-                field("E-Mail"; "E-Mail") { ApplicationArea = Basic; }
-                field("Last Contacted"; "Last Contacted") { ApplicationArea = Basic; }
+                field(Name; Rec.Name) { }
+                field("E-Mail"; Rec."E-Mail") { }
+                field("Last Contacted"; Rec."Last Contacted") { }
             }
         }
     }

@@ -2,7 +2,7 @@ page 50105 "Playlist Item Rates"
 {
     PageType = List;
     SourceTable = "Playlist Item Rate";
-    ApplicationArea = Basic;
+    ApplicationArea = All;
     UsageCategory = Administration;
     layout
     {
@@ -10,13 +10,13 @@ page 50105 "Playlist Item Rates"
         {
             repeater(Group)
             {
-                field("Item No."; "Item No.") { ApplicationArea = Basic; }
-                field("Publisher Code"; "Publisher Code") { ApplicationArea = Basic; }
-                field("Rate Amount"; "Rate Amount") { ApplicationArea = Basic; }
-                field("Source Type"; "Source Type") { ApplicationArea = Basic; }
-                field("Source No."; "Source No.") { ApplicationArea = Basic; }
-                field("Start Time"; "Start Time") { ApplicationArea = Basic; }
-                field("End Time"; "End Time") { ApplicationArea = Basic; }
+                field("Item No."; Rec."Item No.") { }
+                field("Publisher Code"; Rec."Publisher Code") { }
+                field("Rate Amount"; Rec."Rate Amount") { }
+                field("Source Type"; Rec."Source Type") { }
+                field("Source No."; Rec."Source No.") { }
+                field("Start Time"; Rec."Start Time") { }
+                field("End Time"; Rec."End Time") { }
             }
         }
     }

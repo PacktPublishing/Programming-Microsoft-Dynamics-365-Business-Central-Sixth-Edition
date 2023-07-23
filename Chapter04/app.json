@@ -10,14 +10,13 @@
   "help": "",
   "url": "",
   "logo": "",
-  "capabilities": [],
   "dependencies": [],
   "screenshots": [],
   "platform": "12.0.0.0",
   "application": "12.0.0.0",
-  "idRange": {
+  "idRanges": [{
     "from": 50000,
     "to": 99999
-  },
-  "runtime": "2.0"
+  }],
+  "runtime": "11.0"
 }

@@ -2,7 +2,7 @@ page 50107 "Listenership Entries"
 {
     PageType = List;
     SourceTable = "Listernership Entry";
-    ApplicationArea = Basic;
+    ApplicationArea = All;
     UsageCategory = History;
 
     layout
@@ -11,18 +11,15 @@ page 50107 "Listenership Entries"
         {
             repeater(Group)
             {
-                field("Radio Show No."; "Radio Show No.") { ApplicationArea = Basic; }
-                field(Date; Date) { ApplicationArea = Basic; }
-                field("Age Demographic"; "Age Demographic") { ApplicationArea = Basic; }
-                field("Audience Share"; "Audience Share") { ApplicationArea = Basic; }
-                field("Start Time"; "Start Time") { ApplicationArea = Basic; }
-                field("End Time"; "End Time") { ApplicationArea = Basic; }
-                field("Ratings Source Entry No."; "Ratings Source Entry No.") { ApplicationArea = Basic; }
-                field("Entry No."; "Entry No.") { ApplicationArea = Basic; }
+                field("Radio Show No."; Rec."Radio Show No.") { }
+                field(Date; Rec.Date) { }
+                field("Age Demographic"; Rec."Age Demographic") { }
+                field("Audience Share"; Rec."Audience Share") { }
+                field("Start Time"; Rec."Start Time") { }
+                field("End Time"; Rec."End Time") { }
+                field("Ratings Source Entry No."; Rec."Ratings Source Entry No.") { }
+                field("Entry No."; Rec."Entry No.") { }
             }
         }
-
     }
-
-
 }

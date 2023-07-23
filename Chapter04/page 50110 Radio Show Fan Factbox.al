@@ -2,6 +2,7 @@ page 50110 "Radio Show Fan Factbox"
 {
     PageType = ListPart;
     SourceTable = "Radio Show Fan";
+    ApplicationArea = All;
 
     layout
     {
@@ -9,9 +10,9 @@ page 50110 "Radio Show Fan Factbox"
         {
             repeater(Group)
             {
-                field(Name; Name) { ApplicationArea = Basic; }
-                field("E-Mail"; "E-Mail") { ApplicationArea = Basic; }
-                field("Last Contacted"; "Last Contacted") { ApplicationArea = Basic; }
+                field(Name; Rec.Name) { }
+                field("E-Mail"; Rec."E-Mail") { }
+                field("Last Contacted"; Rec."Last Contacted") { }
             }
         }
     }
